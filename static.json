@@ -1,0 +1,13 @@
+{
+    "https_only": true,
+    "root": "./src/.vuepress/dist",
+    "error_page": "404.html",
+    "headers": {
+        "/assets/*": {
+            "Cache-Control": "public, max-age=86400"
+        },
+        "/Meson-Network-Whitepaper-v1.6.pdf": {
+            "Cache-Control": "public, max-age=86400"
+        }
+    }
+}
