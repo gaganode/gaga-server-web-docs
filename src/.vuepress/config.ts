@@ -54,10 +54,8 @@ module.exports = {
     ],
 
     themeConfig: {
-        repo: 'daqnext',
-        docsRepo: 'daqnext/meson-docs',
-        sidebarDepth: 1,
-        docsDir: 'src',
+        sidebarDepth: 0,
+        contributors: false,
         logo: '/logo.svg',
         themePlugins: {
             activeHeaderLinks: false,
@@ -128,18 +126,32 @@ module.exports = {
                         link: '/README.md',
                         children: [
                             '/README.md',
-                            '/gaganode-credit.md',
                         ],
                     },
                     {
-                        text: '🚀 Run GaGaNode',
+                        text: '🦆 GaGaNode Credit',
+                        collapsible: true,
+                        link: '/gaganode-credit.md',
+                    },
+                    {
+                        text: '🚀 Run GaGa Nodes',
                         collapsible: true,
                         link: '/running/README.md',
                         children: [
                             '/running/README.md',
-                            '/running/how-to-run-gaganode-on-raspberry-pi-or-arm-sbc.md',
+                            '/running/how-to-run-gaganode-on-windows.md',
+                            '/running/how-to-run-gaganode-on-android.md',
+                            '/running/how-to-run-gaganode-on-linux.md',
+                            '/running/how-to-run-gaganode-on-macos.md',
+                            '/running/how-to-run-gaganode-on-raspberry-pi.md',
+                            '/running/how-to-run-gaganode-on-openwrt.md',
+                            '/running/how-to-run-gaganode-on-arm-sbc.md',
                             '/running/how-to-run-gaganode-on-android.md',
                         ],
+                    },
+                    {
+                        text: '🪶 Enjoy GaGa Proxy',
+                        link: 'https://gaganode.com/',
                     },
                     {
                         text: '🧱 Glossary',
