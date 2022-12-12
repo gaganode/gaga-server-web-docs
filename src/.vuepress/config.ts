@@ -77,8 +77,37 @@ module.exports = {
                     link: 'https://meson.network/',
                 },
                 {
-                    text: 'Learn More',
+                    text: 'Resources',
                     children: [
+                        {
+                            text: 'Whitepaper',
+                            link: 'https://docs.meson.network/Meson-Network-Whitepaper-v1.6.pdf'
+                        },
+                        {
+                            text: 'GitHub',
+                            link: 'https://github.com/gaganode'
+                        },
+                        {
+                            text: 'Status',
+                            link: 'https://status.meson.network'
+                        },
+                        {
+                            text: 'Media Kit',
+                            link: 'https://github.com/daqnext/brand-kit'
+                        },
+                        {
+                            text: '🧱 Glossary',
+                            link: '/glossary.md',
+                        },
+                    ]
+                },
+                {
+                    text: 'Social Media',
+                    children: [
+                        {
+                            text: 'Blog',
+                            link: 'https://blog.meson.network'
+                        },
                         {
                             text: 'Twitter',
                             link: 'https://twitter.com/NetworkMeson'
@@ -96,24 +125,12 @@ module.exports = {
                             link: 'https://t.me/mesonnetwork'
                         },
                         {
-                            text: 'Whitepaper',
-                            link: 'https://docs.meson.network/Meson-Network-Whitepaper-v1.6.pdf'
-                        },
-                        {
                             text: 'Content2049',
                             link: 'https://content2049.meson.network'
                         },
                         {
                             text: 'YouTube',
                             link: 'https://www.youtube.com/c/MesonNetwork'
-                        },
-                        {
-                            text: 'Media Kit',
-                            link: 'https://github.com/daqnext/brand-kit'
-                        },
-                        {
-                            text: 'Status',
-                            link: 'https://status.meson.network'
                         },
                     ]
                 },
@@ -136,9 +153,8 @@ module.exports = {
                     {
                         text: '🚀 Run GaGa Nodes',
                         collapsible: true,
-                        link: '/running/README.md',
+                        link: '/running/how-to-run-gaganode-on-windows.md',
                         children: [
-                            '/running/README.md',
                             '/running/how-to-run-gaganode-on-windows.md',
                             '/running/how-to-run-gaganode-on-android.md',
                             '/running/how-to-run-gaganode-on-linux.md',
@@ -146,17 +162,19 @@ module.exports = {
                             '/running/how-to-run-gaganode-on-raspberry-pi.md',
                             '/running/how-to-run-gaganode-on-openwrt.md',
                             '/running/how-to-run-gaganode-on-arm-sbc.md',
-                            '/running/how-to-run-gaganode-on-android.md',
+                            '/running/how-to-run-gaganode-on-android-tv.md',
                         ],
                     },
                     {
-                        text: '🪶 Enjoy GaGa Proxy',
-                        link: 'https://gaganode.com/',
-                    },
-                    {
-                        text: '🧱 Glossary',
+                        text: '🪶 SDK Integration',
                         collapsible: true,
-                        link: '/glossary.md',
+                        link: '/sdk/android-sdk.md',
+                        children: [
+                            '/sdk/android-sdk.md',
+                            '/sdk/windows-sdk.md',
+                            '/sdk/linux-sdk.md',
+                            '/sdk/macos-sdk.md',
+                        ],
                     },
                     {
                         text: '🌱 FAQ ',
