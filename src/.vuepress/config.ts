@@ -49,7 +49,7 @@ module.exports = {
         '@vuepress/plugin-shiki',
         '@vuepress/plugin-search',
         ['@vuepress/plugin-google-analytics', {
-            id: 'G-SEH5LFSBRP',
+            id: 'G-TWD830HBNW',
         }],
     ],
 
@@ -62,8 +62,8 @@ module.exports = {
         },
         locales: {
             '/': {
-              selectLanguageName: 'English',
-              navbar: [
+            selectLanguageName: 'English',
+            navbar: [
                 {
                     text: 'Home',
                     link: 'https://gaganode.com/',
@@ -159,10 +159,8 @@ module.exports = {
                             '/running/how-to-run-gaganode-on-android.md',
                             '/running/how-to-run-gaganode-on-linux.md',
                             '/running/how-to-run-gaganode-on-macos.md',
+                            '/running/how-to-run-gaganode-on-arm.md',
                             '/running/how-to-run-gaganode-on-raspberry-pi.md',
-                            '/running/how-to-run-gaganode-on-openwrt.md',
-                            '/running/how-to-run-gaganode-on-arm-sbc.md',
-                            '/running/how-to-run-gaganode-on-android-tv.md',
                         ],
                     },
                     {
@@ -171,9 +169,7 @@ module.exports = {
                         link: '/sdk/android-sdk.md',
                         children: [
                             '/sdk/android-sdk.md',
-                            '/sdk/windows-sdk.md',
-                            '/sdk/linux-sdk.md',
-                            '/sdk/macos-sdk.md',
+                            '/sdk/pc-sdk.md',
                         ],
                     },
                     {
