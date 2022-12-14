@@ -9,19 +9,15 @@ sidebarDepth: 1
 
 ## What GaGanode Is
 
-GaGaNode, the Next generation Decentralized Residential Bandwidth marketplace, aims to alleviate the global shortage of IPv4 addresses with Web3.0 technology. 
+GaGaNode, the Next generation Decentralized Residential IP + Bandwidth marketplace, aims to alleviate the global shortage of IPv4 addresses with Web3.0 technology.
+
+GaGaNode is developed for helping users to master idle home bandwidth resources independently. Users can participate in Web3 network through Idle Electronics at home without public network IP. GaGaNode encourages everyone to reduce investment in new mining equipment and install GaGaNode on any Idle Electronics such as Raspberry Pi, Android phone, Arm SBC, TV Box, Xbox, Playstation and other electronic devices through software porting as much as possible.
+
+At the moment when the global IPv4 address resources are in short supply, those Future technologies that need to rely on home bandwidth resources to develop can obtain real home bandwidth resources through GaGaNode, thus changing the status quo that home bandwidth resources need to be purchased from hacker channels, making related services more and more trendy. for compliance.
 
 ## What Meson Network Is
 
 Meson Network is committed to creating an efficient bandwidth marketplace on Web3, using a blockchain protocol model to replace the traditional labor-based sales models, consolidating and monetizing idle bandwidth from long-tail users at a low cost. Meson Network is the foundation of data transmission for decentralized storage, computation, and the emerging Web3 Dapp ecosystem.
-
-Extended Reading:
-
-- [Meson Network Whitepaper](https://docs.meson.network/Meson-Network-Whitepaper-v1.6.pdf)
-- [Meson Network Documentation](https://docs.meson.network/)
-- [Meson Network 2022](https://medium.com/meson-network/meson-network-2022-ec246bae8fcc)
-- [Explore Data Center Carbon Protocol](https://medium.com/meson-network/explore-data-center-carbon-protocol-d1833ef03a68)
-- [Decentralized Infrastructure in Web3](https://medium.com/meson-network/web3-decentralized-infrastructure-b919cd1d5c48)
 
 ## How GaGaNode Works
 
