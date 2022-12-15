@@ -8,17 +8,19 @@ To get GaGaNode Credits, enthusiasts only need an idle Android phone, such as tv
 
 ## Mining Reward
 
-The node which continuously online will get a round of reward every 10-30 minutes. The reward values are as above.
+Node will be rewarded with gaga credit every round which takes about 10-30 minutes.
 
-The rewards for the special regions listed will be different. Not listed region will use the default value.
+The reward amount differs among various countries.
 
-Residential ip will get much more rewards than datacenter ip.
+Reward is higher for nodes that have residential ip then nodes that have datacenter ip.
 
 Please check [miningrules](https://dashboard.gaganode.com/mining_rules) for details.
 
-![](./../images/../src/images/credit/reward-per-round.svg)
+![](./../images/../src/images/credit/reward-per-round-2.svg)
 
-![](./../images/../src/images/credit/residential-datacenter.svg)
+Node's location belongs to default if not specified
+
+![](./../images/../src/images/credit/residential-datacenter-2.svg)
 
 ## Credit v.s Mining efficiency
 
