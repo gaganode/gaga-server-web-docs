@@ -18,7 +18,7 @@ module.exports = {
         ['meta', { name: 'theme-color', content: '#fff' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-        ['link', { rel: 'icon', href: '/logo.svg' }]
+        ['link', { rel: 'icon', href: '/logo.svg' }],
         ['script', {}, `
         var _paq = window._paq = window._paq || [];
             /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
