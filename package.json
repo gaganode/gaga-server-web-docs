@@ -1,13 +1,13 @@
 {
-  "name": "Meson-Docs",
+  "name": "GaGaNode-Docs",
   "version": "0.0.1",
-  "description": "Bandwidth trading platform built on blockchain.",
+  "description": "Next generation IP + Bandwidth Marketplace",
   "main": "index.js",
   "authors": {
     "name": "Meson Team",
     "email": "Please reply in our github repo"
   },
-  "repository": "https://github.com/daqnext/meson-docs",
+  "repository": "https://github.com/gaganode/gaga-server-web-docs",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
