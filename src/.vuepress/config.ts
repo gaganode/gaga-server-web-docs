@@ -169,6 +169,7 @@ module.exports = {
                         collapsible: true,
                         link: '/running/README.md',
                         children: [
+                            '/running/README.md',
                             '/running/how-to-run-gaganode-on-windows.md',
                             '/running/how-to-run-gaganode-on-android.md',
                             '/running/how-to-run-gaganode-on-linux.md',
