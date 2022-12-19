@@ -167,8 +167,9 @@ module.exports = {
                     {
                         text: '🚀 Run GaGa Nodes',
                         collapsible: true,
-                        link: '/running/how-to-run-gaganode-on-windows.md',
+                        link: '/running/README.md',
                         children: [
+                            '/running/README.md',
                             '/running/how-to-run-gaganode-on-windows.md',
                             '/running/how-to-run-gaganode-on-android.md',
                             '/running/how-to-run-gaganode-on-linux.md',
