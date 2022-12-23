@@ -22,18 +22,6 @@ Node's location belongs to default if not specified
 
 ![](./../images/../src/images/credit/residential-datacenter-2.svg)
 
-## Credit v.s Mining efficiency
-
-If your node is online and stable, the credit will increase gradually until the maximum value 10000.(about 30 days)
-
-When your node goes offline or unstable the credit will be reset.
-
-Makes your node stable to get more tokens.
-
-The mining efficiency will be twice with credit(10000) compared with credit(0)
-
-![](./../images/../src/images/credit/reward-efficiency.svg)
-
 ## Referral System
 
 Help us to spread, and you will also get benefits. You will automatically receive **20%** of mining revenue from who register through the referral code or link below as a reward for your promotion.
