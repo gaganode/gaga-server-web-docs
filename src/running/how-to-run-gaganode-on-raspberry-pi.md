@@ -27,7 +27,7 @@ Raspberry Pi Imager is a quick and easy way to install Raspberry Pi OS to a micr
 
 Click the button “[Install & Run](https://dashboard.gaganode.com/install_run)” and you can find out your token and installation tutorial in this page.
 
-![](./../images/running/install_run.png)
+![](./../images/running/install_run_2.png)
 
 ## 1.Download & Install
 
