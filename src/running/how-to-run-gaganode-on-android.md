@@ -18,9 +18,7 @@
 
 ## Download & Install
 
-<img src="./../images/running/gaganode-1_0_4.png" height="200" />
-
-Android APK Download: [gaganode-1_0_4.apk](https://assets.coreservice.io/public/package/32/gaganode/1.0.4/gaganode-1_0_4.apk)
+Android APK Download: [gaganode-1_0_5.apk](https://assets.coreservice.io/public/package/32/gaganode/1.0.5/gaganode-1_0_5.apk)
 
 GaGa Android GitHub: https://github.com/gaganode/gaga_android/releases
 
