@@ -20,13 +20,13 @@
 
 Android APK Download: [gaganode-1_0_5.apk](https://assets.coreservice.io/public/package/32/gaganode/1.0.5/gaganode-1_0_5.apk)
 
-GaGa Android GitHub: https://github.com/gaganode/gaga_android/releases
+GaGa Android GitHub: [https://github.com/gaganode/gaga_android/releases](https://github.com/gaganode/gaga_android/releases)
 
 ## Start Service
 
 Click the button “[Install & Run](https://dashboard.gaganode.com/install_run)” and you can find out your token and installation tutorial in this page.
 
-![](./../images/running/android-install-run.png)
+![](./../images/running/android-install-run-1.png)
 <br>
 
 Input You Token, Click `Start Mining`.
