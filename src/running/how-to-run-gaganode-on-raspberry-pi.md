@@ -31,6 +31,12 @@ Click the button â€œ[Install & Run](https://dashboard.gaganode.com/install_run)â
 
 ## 1.Download & Install
 
+To shut down the old version of Gaganode if it exists in the system, please use the following command.
+
+```bash
+sudo ./app service remove
+```
+
 <CodeGroup>
 
   <CodeGroupItem title="Linux ARM 64-bit">

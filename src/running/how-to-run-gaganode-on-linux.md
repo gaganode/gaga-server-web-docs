@@ -22,6 +22,12 @@ sudo yum update -y && sudo yum install -y curl tar ca-certificates
 
 ## 1.Download & Install
 
+To shut down the old version of Gaganode if it exists in the system, please use the following command.
+
+```bash
+sudo ./app service remove
+```
+
 <CodeGroup>
 
   <CodeGroupItem title="Linux 64-bit">
