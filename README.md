@@ -13,4 +13,5 @@ git clone https://github.com/gaganode/gaga-server-web-docs.git
 cd gaga-server-web-doc
 yarn
 yarn dev src
+npm install
 ```
