@@ -36,7 +36,7 @@ Click the button â€œ[Install & Run](https://dashboard.gaganode.com/install_run)â
   <CodeGroupItem title="Linux ARM 64-bit">
 
 ```bash
-curl -o app-linux-arm64.tar.gz https://assets.coreservice.io/public/package/24/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-linux-arm64.tar.gz && rm -f app-linux-arm64.tar.gz && cd ./app-linux-arm64 && sudo ./app service install
+curl -o apphub-linux-arm32.tar.gz https://assets.coreservice.io/public/package/72/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-linux-arm32.tar.gz && rm -f apphub-linux-arm32.tar.gz && cd ./apphub-linux-arm32 && sudo ./apphub service install
 ```
 
   </CodeGroupItem>
@@ -44,7 +44,7 @@ curl -o app-linux-arm64.tar.gz https://assets.coreservice.io/public/package/24/a
   <CodeGroupItem title="Linux ARM 32-bit">
 
 ```bash
-curl -o app-linux-arm32.tar.gz https://assets.coreservice.io/public/package/23/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-linux-arm32.tar.gz && rm -f app-linux-arm32.tar.gz && cd ./app-linux-arm32 && sudo ./app service install
+curl -o apphub-linux-arm32.tar.gz https://assets.coreservice.io/public/package/72/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-linux-arm32.tar.gz && rm -f apphub-linux-arm32.tar.gz && cd ./apphub-linux-arm32 && sudo ./apphub service install
 ```
 
   </CodeGroupItem>
@@ -54,13 +54,13 @@ curl -o app-linux-arm32.tar.gz https://assets.coreservice.io/public/package/23/a
 ## 2.Start Service
 
 ```bash
-sudo ./app service start
+sudo ./apphub service start
 ```
 
 ## 3.Check APP Status
 
 ```bash
-./app status
+./apphub status
 ```
 
 ## 4.Set Token
@@ -72,21 +72,21 @@ sudo ./apps/gaganode/gaganode config set --token=`your token`
 ## 5.Restart APP
 
 ```bash
-./app restart
+./apphub restart
 ```
 
 ## Commands Reference
 
 ```bash
-sudo ./app service install                    # install node
-sudo ./app service start                      # start node
-sudo ./app service stop                       # stop node
-sudo ./app service remove                     # remove node
-./app status                                  # check node running status
-./app restart                                 # restart node
-./app upgrade                                 # upgrade node
-./app log                                     # check logs
-./app -h                                      # check help
+sudo ./apphub service install                    # install node
+sudo ./apphub service start                      # start node
+sudo ./apphub service stop                       # stop node
+sudo ./apphub service remove                     # remove node
+./apphub status                                  # check node running status
+./apphub restart                                 # restart node
+./apphub upgrade                                 # upgrade node
+./apphub log                                     # check logs
+./apphub -h                                      # check help
 ```
 
 ## Terminal Rsecording
