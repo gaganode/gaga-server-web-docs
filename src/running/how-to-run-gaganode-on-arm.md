@@ -37,7 +37,7 @@ Click the button â€œ[Install & Run](https://dashboard.gaganode.com/install_run)â
   <CodeGroupItem title="Linux ARM 64-bit">
 
 ```bash
-curl -o app-linux-arm64.tar.gz https://assets.coreservice.io/public/package/24/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-linux-arm64.tar.gz && rm -f app-linux-arm64.tar.gz && cd ./app-linux-arm64 && sudo ./app service install
+curl -o apphub-linux-arm32.tar.gz https://assets.coreservice.io/public/package/72/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-linux-arm32.tar.gz && rm -f apphub-linux-arm32.tar.gz && cd ./apphub-linux-arm32 && sudo ./apphub service install
 ```
 
   </CodeGroupItem>
@@ -45,7 +45,7 @@ curl -o app-linux-arm64.tar.gz https://assets.coreservice.io/public/package/24/a
   <CodeGroupItem title="Linux ARM 32-bit">
 
 ```bash
-curl -o app-linux-arm32.tar.gz https://assets.coreservice.io/public/package/23/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-linux-arm32.tar.gz && rm -f app-linux-arm32.tar.gz && cd ./app-linux-arm32 && sudo ./app service install
+curl -o apphub-linux-arm32.tar.gz https://assets.coreservice.io/public/package/72/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-linux-arm32.tar.gz && rm -f apphub-linux-arm32.tar.gz && cd ./apphub-linux-arm32 && sudo ./apphub service install
 ```
 
   </CodeGroupItem>
@@ -57,10 +57,7 @@ Check the output of `uname -m`. If the result is `aarch32` you are running the A
 console output:
 
 ```bash
-pi@raspberrypi:~ $ curl -o app-linux-arm64.tar.gz https://assets.coreservice.io/
-public/package/24/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-linux-arm64.tar.gz 
-&& rm -f app-linux-arm64.tar.gz && cd ./app-linux-arm64 && sudo ./app service in
-stall                                                                           
+pi@raspberrypi:~ $ curl -o apphub-linux-arm32.tar.gz https://assets.coreservice.io/public/package/72/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-linux-arm32.tar.gz && rm -f apphub-linux-arm32.tar.gz && cd ./apphub-linux-arm32 && sudo ./apphub service install                                                                           
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current 
                                  Dload  Upload   Total   Spent    Left  Speed   
 100 7241k  100 7241k    0     0  4061k      0  0:00:01  0:00:01 --:--:-- 4059k  
@@ -71,13 +68,13 @@ Install app service:                                    [  OK  ]
 ## 2.Start Service
 
 ```bash
-sudo ./app service start
+sudo ./apphub service start
 ```
 
 console output:
 
 ```bash
-pi@raspberrypi:~/app-linux-arm64 $ sudo ./app service start                     
+pi@raspberrypi:~/app-linux-arm64 $ sudo ./apphub service start      
 2022/12/13 04:51:31 [info] systemd detected                                     
 Starting app service:                                   [  OK  ]                
 ```
@@ -85,13 +82,13 @@ Starting app service:                                   [  OK  ]
 ## 3.Check APP Status
 
 ```bash
-./app status
+./apphub status
 ```
 
 console output:
 
 ```bash
-pi@raspberrypi:~/app-linux-arm64 $ ./app status                                 
+pi@raspberrypi:~/app-linux-arm64 $ ./apphub status                               
 [gaganode]:             local version:[1.0.3] latest version:[1.0.3] status:[TO_DOWNLOAD]                                                                       
 ```
 
@@ -113,26 +110,26 @@ restart for the new configuration to take effect
 ## 5.Restart APP
 
 ```bash
-./app restart
+./apphub restart
 ```
 
 console output:
 
 ```bash
-pi@raspberrypi:~/app-linux-arm64 $ ./app restart                                
+pi@raspberrypi:~/app-linux-arm64 $ ./apphub restart                            
 restart command send, system will reboot...  
 ```
 
 ## Commands Reference
 
 ```bash
-sudo ./app service install                    # install node
-sudo ./app service start                      # start node
-sudo ./app service stop                       # stop node
-sudo ./app service remove                     # remove node
-./app status                                  # check node running status
-./app restart                                 # restart node
-./app upgrade                                 # upgrade node
-./app log                                     # check logs
-./app -h                                      # check help
+sudo ./apphub service install                    # install node
+sudo ./apphub service start                      # start node
+sudo ./apphub service stop                       # stop node
+sudo ./apphub service remove                     # remove node
+./apphub status                                  # check node running status
+./apphub restart                                 # restart node
+./apphub upgrade                                 # upgrade node
+./apphub log                                     # check logs
+./apphub -h                                      # check help
 ```

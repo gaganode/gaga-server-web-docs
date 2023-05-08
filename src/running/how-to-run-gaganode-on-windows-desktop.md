@@ -1,18 +1,8 @@
-# How To Run GaGa On Windows
+# Run GaGa On Windows Desktop
 
 >How to easily install a GaGaNode on Windows.
 
 [[toc]]
-
-## Register
-
-[https://dashboard.gaganode.com/register](https://dashboard.gaganode.com/register)
-
-![](./../images/running/register.png)
-
-Click the button “[Install & Run](https://dashboard.gaganode.com/install_run)” and you can find out your token and installation tutorial in this page.
-
-![](./../images/running/install_run_2.png)
 
 ## Open PowerShell in Windows
 
@@ -49,7 +39,7 @@ You can also launch Windows PowerShell as an admin from the Windows Power User m
   <CodeGroupItem title="Windows 64-bit">
 
 ```bash
-wget -Uri "https://assets.coreservice.io/public/package/59/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz" -OutFile "apphub-windows-amd64.tar.gz" ; tar -zxf apphub-windows-amd64.tar.gz ; rm -Force apphub-windows-amd64.tar.gz ; cd ./apphub-windows-amd64 ; ./apphub.exe service install
+wget -Uri "https://assets.coreservice.io/public/package/20/app/1.0.3/app-1_0_3.tar.gz" -OutFile "app-windows-amd64.tar.gz" ; tar -zxf app-windows-amd64.tar.gz ; rm -Force app-windows-amd64.tar.gz ; cd ./app-windows-amd64 ; ./app.exe service install
 ```
 
   </CodeGroupItem>
@@ -57,7 +47,7 @@ wget -Uri "https://assets.coreservice.io/public/package/59/app-market-gaga-pro/1
   <CodeGroupItem title="Windows 32-bit">
 
 ```bash
-wget -Uri "https://assets.coreservice.io/public/package/59/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz" -OutFile "apphub-windows-amd64.tar.gz" ; tar -zxf apphub-windows-amd64.tar.gz ; rm -Force apphub-windows-amd64.tar.gz ; cd ./apphub-windows-amd64 ; ./apphub.exe service install
+wget -Uri "https://assets.coreservice.io/public/package/19/app/1.0.3/app-1_0_3.tar.gz" -OutFile "app-windows-386.tar.gz" ; tar -zxf app-windows-386.tar.gz ; rm -Force app-windows-386.tar.gz ; cd ./app-windows-386 ; ./app.exe service install
 ```
 
   </CodeGroupItem>
@@ -67,19 +57,20 @@ wget -Uri "https://assets.coreservice.io/public/package/59/app-market-gaga-pro/1
 console output:
 
 ```bash
-PS C:\Users\Administrator> wget -Uri "https://assets.coreservice.io/public/package/59/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz" -OutFile "apphub-windows-amd64.tar.gz" ; tar -zxf apphub-windows-amd64.tar.gz ; rm -Force apphub-windows-amd64.tar.gz ; cd ./apphub-windows-amd64 ; ./apphub.exe service install
+PS C:\Users\Administrator> wget -Uri "https://assets.coreservice.io/public/package/20/app/1.0.3/app-1_0_3.tar.gz" -OutFile "app-windows-amd64.tar.gz" ; tar -zxf app-windows-amd64.tar.gz ; rm -Force app-windows-amd64.tar.gz ; cd ./app-windows-amd64 ; ./app.exe service install
+Install app service: completed.
 ```
 
 ## 2.Start Service
 
 ```bash
-./apphub.exe service start
+./app.exe service start
 ```
 
 console output:
 
 ```bash
-PS C:\Users\Administrator\app-windows-amd64> ./apphub.exe service start
+PS C:\Users\Administrator\app-windows-amd64> ./app.exe service start
 Starting app service: completed.
 ```
 
@@ -87,7 +78,7 @@ Starting app service: completed.
 ## 3.Check APP Status
 
 ```bash
-./apphub.exe status
+./app.exe status
 ```
 
 check gaganode status is RUNNING
@@ -104,7 +95,7 @@ RUNNING                         # app running
 console output:
 
 ```bash
-PS C:\Users\Administrator\app-windows-amd64> ./apphub.exe status
+PS C:\Users\Administrator\app-windows-amd64> ./app.exe status
 [gaganode]:             local version:[1.0.3] latest version:[1.0.3] status:[TO_DOWNLOAD]
 ```
 
@@ -125,13 +116,13 @@ restart for the new configuration to take effect
 ## 5.Restart APP
 
 ```bash
-./apphub.exe restart
+./app.exe restart
 ```
 
 console output:
 
 ```bash
-PS C:\Users\Administrator\app-windows-amd64> ./apphub.exe restart
+PS C:\Users\Administrator\app-windows-amd64> ./app.exe restart
 restart command send, system will reboot...
 ```
 
@@ -146,13 +137,13 @@ After 1-3 minutes, you will have a new terminal record at terminals open in new 
 ## Commands Reference
 
 ```bash
-./apphub.exe service install                    # install node
-./apphub.exe service start                      # start node
-./apphub.exe service stop                       # stop node
-./apphub.exe service remove                     # remove node
-./apphub.exe status                             # check node running status
-./apphub.exe restart                            # restart node
-./apphub.exe upgrade                            # upgrade node
-./apphub.exe log                                # check logs
-./apphub.exe -h                                 # check help
+./app.exe service install                    # install node
+./app.exe service start                      # start node
+./app.exe service stop                       # stop node
+./app.exe service remove                     # remove node
+./app.exe status                             # check node running status
+./app.exe restart                            # restart node
+./app.exe upgrade                            # upgrade node
+./app.exe log                                # check logs
+./app.exe -h                                 # check help
 ```

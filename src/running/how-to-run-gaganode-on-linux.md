@@ -27,7 +27,7 @@ sudo yum update -y && sudo yum install -y curl tar ca-certificates
   <CodeGroupItem title="Linux 64-bit">
 
 ```bash
-curl -o app-linux-amd64.tar.gz https://assets.coreservice.io/public/package/22/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-linux-amd64.tar.gz && rm -f app-linux-amd64.tar.gz && cd ./app-linux-amd64 && sudo ./app service install
+curl -o apphub-linux-amd64.tar.gz https://assets.coreservice.io/public/package/60/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-linux-amd64.tar.gz && rm -f apphub-linux-amd64.tar.gz && cd ./apphub-linux-amd64 && sudo ./apphub service install
 ```
 
   </CodeGroupItem>
@@ -35,7 +35,7 @@ curl -o app-linux-amd64.tar.gz https://assets.coreservice.io/public/package/22/a
   <CodeGroupItem title="Linux 32-bit">
 
 ```bash
-curl -o app-linux-386.tar.gz https://assets.coreservice.io/public/package/21/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-linux-386.tar.gz && rm -f app-linux-386.tar.gz && cd ./app-linux-386 && sudo ./app service install
+curl -o apphub-linux-386.tar.gz https://assets.coreservice.io/public/package/70/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-linux-386.tar.gz && rm -f apphub-linux-386.tar.gz && cd ./apphub-linux-386 && sudo ./apphub service install
 ```
 
   </CodeGroupItem>
@@ -45,7 +45,7 @@ curl -o app-linux-386.tar.gz https://assets.coreservice.io/public/package/21/app
 console output:
 
 ```bash
-meson@meson-server:~$ curl -o app-linux-amd64.tar.gz https://assets.coreservice.io/public/package/22/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-linux-amd64.tar.gz && rm -f app-linux-amd64.tar.gz && cd ./app-linux-amd64 && sudo ./app service install
+meson@meson-server:~$ curl -o apphub-linux-amd64.tar.gz https://assets.coreservice.io/public/package/60/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-linux-amd64.tar.gz && rm -f apphub-linux-amd64.tar.gz && cd ./apphub-linux-amd64 && sudo ./apphub service install
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100 7752k  100 7752k    0     0  4171k      0  0:00:01  0:00:01 --:--:-- 4170k
@@ -58,13 +58,13 @@ Install app service:					[  OK  ]
 ## 2.Start Service
 
 ```bash
-sudo ./app service start
+sudo ./apphub service start
 ```
 
 console output:
 
 ```bash
-meson@meson-server:~/app-linux-amd64$ sudo ./app service start
+meson@meson-server:~/app-linux-amd64$ sudo ./apphub service start
 2022/12/13 06:52:57 [info] systemd detected
 Starting app service:					[  OK  ]
 ```
@@ -72,7 +72,7 @@ Starting app service:					[  OK  ]
 ## 3.Check APP Status
 
 ```bash
-./app status
+./apphub status
 ```
 
 check gaganode status is RUNNING
@@ -80,7 +80,7 @@ check gaganode status is RUNNING
 console output:
 
 ```bash
-meson@meson-server:~/app-linux-amd64$ ./app status
+meson@meson-server:~/app-linux-amd64$ ./apphub status
 [gaganode]:		local version:[1.0.3] latest version:[1.0.3] status:[DOWNLOADED]
 ```
 
@@ -110,28 +110,28 @@ restart for the new configuration to take effect
 ## 5.Restart APP
 
 ```bash
-./app restart
+./apphub restart
 ```
 
 console output:
 
 ```bash
-meson@meson-server:~/app-linux-amd64$ ./app restart
+meson@meson-server:~/app-linux-amd64$ ./apphub restart
 restart command send, system will reboot...
 ```
 
 ## Commands Reference
 
 ```bash
-sudo ./app service install                    # install node
-sudo ./app service start                      # start node
-sudo ./app service stop                       # stop node
-sudo ./app service remove                     # remove node
-./app status                                  # check node running status
-./app restart                                 # restart node
-./app upgrade                                 # upgrade node
-./app log                                     # check logs
-./app -h                                      # check help
+sudo ./apphub service install                    # install node
+sudo ./apphub service start                      # start node
+sudo ./apphub service stop                       # stop node
+sudo ./apphub service remove                     # remove node
+./apphub status                                  # check node running status
+./apphub restart                                 # restart node
+./apphub upgrade                                 # upgrade node
+./apphub log                                     # check logs
+./apphub -h                                      # check help
 ```
 
 ## Terminal Rsecording
