@@ -8,11 +8,11 @@
 
 [https://dashboard.gaganode.com/register](https://dashboard.gaganode.com/register)
 
-![](./../images/running/register.png)
+![](./../images/running/register-v2.png)
 
 Click the button “[Install & Run](https://dashboard.gaganode.com/install_run)” and you can find out your token and installation tutorial in this page.
 
-![](./../images/running/install_run_2.png)
+![](./../images/running/install_run_3.png)
 
 ## 1.Download & Install
 

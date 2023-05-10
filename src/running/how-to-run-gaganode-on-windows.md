@@ -8,11 +8,11 @@
 
 [https://dashboard.gaganode.com/register](https://dashboard.gaganode.com/register)
 
-![](./../images/running/register.png)
+![](./../images/running/register-v2.png)
 
 Click the button “[Install & Run](https://dashboard.gaganode.com/install_run)” and you can find out your token and installation tutorial in this page.
 
-![](./../images/running/install_run_2.png)
+![](./../images/running/install_run_3.png)
 
 ## Open PowerShell in Windows
 
@@ -141,7 +141,7 @@ restart command send, system will reboot...
 
 After 1-3 minutes, you will have a new terminal record at terminals open in new node .
 
-![](./images/../../images/running/windows-06.png)
+![](./images/../../images/running/windows-07.png)
 
 ## Commands Reference
 
