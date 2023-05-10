@@ -177,6 +177,7 @@ module.exports = {
                             '/running/how-to-run-gaganode-on-macos.md',
                             '/running/how-to-run-gaganode-on-arm.md',
                             '/running/how-to-run-gaganode-on-raspberry-pi.md',
+                            '/running/how-to-run-gaganode-on-macos-desktop.md',
                         ],
                     },
                     {

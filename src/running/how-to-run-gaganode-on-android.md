@@ -2,13 +2,12 @@
 
 >How to easily install a GaGaNode on Android.
 
-
 [[toc]]
 
 ::: tip 🚧 TIP
 - The minimum recommended version is **Android 4**.
 - Enable Auto-starting GaGaNode APP in Android.
-- The Android device is unable to connect to Gaganode using the data center IP.
+- The Android device is unable to connect to Gaganode using the Datacenter IP.
 :::
 
 ## Register
@@ -19,7 +18,7 @@
 
 ## Download & Install
 
-Android APK Download: [gaganode_pro-0_0_50.apk](https://assets.coreservice.io/public/package/73/gaganode_pro/0.0.50/gaganode_pro-0_0_50.apk)
+Android APK Download: [gaganode_pro-0_0_66.apk](https://assets.coreservice.io/public/package/73/gaganode_pro/0.0.66/gaganode_pro-0_0_66.apk)
 
 GaGa Android GitHub: [https://github.com/gaganode/gaga_android/releases](https://github.com/gaganode/gaga_android/releases)
 
