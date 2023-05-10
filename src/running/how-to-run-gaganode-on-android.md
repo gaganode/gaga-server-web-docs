@@ -14,11 +14,11 @@
 
 [https://dashboard.gaganode.com/register](https://dashboard.gaganode.com/register)
 
-![](./../images/running/register.png)
+![](./../images/running/register-v2.png)
 
 ## Download & Install
 
-Android APK Download: [gaganode-1_0_6.apk](https://assets.coreservice.io/public/package/32/gaganode/1.0.6/gaganode-1_0_6.apk)
+Android APK Download: [gaganode_pro-0_0_50.apk](https://assets.coreservice.io/public/package/73/gaganode_pro/0.0.50/gaganode_pro-0_0_50.apk)
 
 GaGa Android GitHub: [https://github.com/gaganode/gaga_android/releases](https://github.com/gaganode/gaga_android/releases)
 
@@ -26,20 +26,19 @@ GaGa Android GitHub: [https://github.com/gaganode/gaga_android/releases](https:/
 
 Click the button “[Install & Run](https://dashboard.gaganode.com/install_run)” and you can find out your token and installation tutorial in this page.
 
-![](./../images/running/android-install-run-1.png)
+![](./../images/running/android-install-run-2.png)
 <br>
 
-Input You Token, Click `Start Mining`.
+Input `You Token`, Click `Start Mining`.
 
-<img src="./../images/running/android-05.jpeg" width="300" />
+![](./../images/running/android-06.png)
+
+After 1-3 minutes, you will have a new terminal record at terminals open in new node .
+
+![](./../images/running/android-07.png)
 
 ## Enable Auto-starting
-<br>
 
-Set 'No restrictions' when start.
+Set 'No restrictions' when start. Enable Autostart.
 
-<img src="./../images/running/android-01.png" width="300" />
-
-Enable Autostart.
-
-<img src="./../images/running/android-02.png" width="300" />
+![](./../images/running/android-08.png)
