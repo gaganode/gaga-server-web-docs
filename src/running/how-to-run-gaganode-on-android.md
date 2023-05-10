@@ -8,6 +8,7 @@
 ::: tip 🚧 TIP
 - The minimum recommended version is **Android 4**.
 - Enable Auto-starting GaGaNode APP in Android.
+- The Android device is unable to connect to Gaganode using the data center IP.
 :::
 
 ## Register
