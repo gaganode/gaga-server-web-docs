@@ -1,104 +1,38 @@
-# Run GaGa On MacOS  Desktop
+# Run GaGa On MacOS Desktop
 
 >How to easily install a GaGaNode on MacOS Desktop
 
 [[toc]]
 
-## 1.Download & Install
+## 1.Download
 
-In the Terminal app <img src="./images/../../images/running/terminal.png" height="20"/> on [your Mac](https://support.apple.com/guide/terminal/welcome/2.13/mac), do one of the following:
+You can obtain your token and installation package by clicking the "[Install & Run](https://dashboard.gaganode.com/install_run)" on this page.
 
-```bash
-curl -o app-darwin-amd64.tar.gz https://assets.coreservice.io/public/package/18/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-darwin-amd64.tar.gz && rm -f app-darwin-amd64.tar.gz && cd ./app-darwin-amd64 && ./app service install
-```
+![](./../images/running/install_run_3.png)
 
-console output:
+## 2.Install 
 
-```bash
-gaga-mac curl -o app-darwin-amd64.tar.gz https://assets.coreservice.io/public/package/18/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-darwin-amd64.tar.gz && rm -f app-darwin-amd64.tar.gz && cd ./app-darwin-amd64 && ./app service install
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100 8161k  100 8161k    0     0  3053k      0  0:00:02  0:00:02 --:--:-- 3061k
-Install app service:					[  OK  ]
-```
+The GaGaNode Desktop for macOS version can be easily installed by simply opening the `.dmg` installation package.
 
-## 2.Start Service
+![](./../images/running/mac-desktop-01.png)
 
-```bash
-./app service start
-```
+Clicking on the GaGaNode Desktop icon will launch the application.
 
-console output:
+![](./images/../../images/running/mac-desktop-02.png)
 
-```bash
-➜  app-darwin-amd64 ./app service start
-Starting app service:					[  OK  ]
-```
+## 3.Start Service
 
-## 3.Check APP Status
+When you open GaGaNode Desktop, it will first initiate a download process for initialization, which may take anywhere between 1-3 minutes to complete.
 
-```bash
-./app status
-```
+![](./images/../../images/running/mac-desktop-03.png)
 
-console output:
+Once the download is complete, enter your Gaganode token and click on the "Restart" to initiate the restart process.
 
-```bash
-➜  app-darwin-amd64 ./app status
-[gaganode]:		local version:[1.0.3] latest version:[1.0.3] status:[TO_DOWNLOAD] 
-```
+![](./images/../../images/running/mac-desktop-06.png)
 
-Status List:
+After waiting for the restart process to complete, you will notice that Gaganode has been successfully launched.
 
-```bash
-TO_DOWNLOAD                     # app to download
-DOWNLOADED                      # app downloaded
-INSTALLED                       # app installed
-RUNNING                         # app running
-```
+![](./images/../../images/running/mac-desktop-07.png)
+After 1-3 minutes, you will have a new terminal record at terminals open in new node .
 
-## 4.Set Token
-
-```bash
-./apps/gaganode/gaganode config set --token=`your token`
-```
-
-console output:
-
-```bash
-➜  app-darwin-amd64 ./apps/gaganode/gaganode config set --token=`your token`
-new config generated
-restart for the new configuration to take effect
-```
-
-
-## 5.Restart APP
-
-```bash
-./app restart
-```
-
-console output:
-
-```bash
-➜  app-darwin-amd64 ./app restart
-restart command send, system will reboot...
-```
-
-## Commands Reference
-
-```bash
-./app service install                         # install node
-./app service start                           # start node
-./app service stop                            # stop node
-./app service remove                          # remove node
-./app status                                  # check node running status
-./app restart                                 # restart node
-./app upgrade                                 # upgrade node
-./app log                                     # check logs
-./app -h                                      # check help
-```
-
-## Terminal Rsecording
-
-<a href="https://asciinema.org/a/545224" target="_blank"><img src="https://asciinema.org/a/545224.svg" /></a>
+![](./images/../../images/running/mac-desktop-08.png)
