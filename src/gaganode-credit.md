@@ -16,11 +16,25 @@ Reward is higher for nodes that have residential ip then nodes that have datacen
 
 Please check [miningrules](https://dashboard.gaganode.com/mining_rules) for details.
 
-![](./../images/../src/images/credit/reward-per-round-2.svg)
+![](./../images/../src/images/credit/residential-datacenter-1.png)
 
-Node's location belongs to default if not specified
+![](./../images/../src/images/credit/residential-datacenter-2.png)
 
-![](./../images/../src/images/credit/residential-datacenter-2.svg)
+![](./../images/../src/images/credit/residential-datacenter-3.png)
+
+*port open & stable : node with public ip , port open and stable online
+
+Node will be rewarded with gaga credit every round which takes about 10-30 minutes.
+
+Node reward depends on the chart above.
+
+*example: node[residential],[pc],[port not open] => base reward = 6 * 5 * 1
+
+![](./../images/../src/images/credit/residential-datacenter-4.png)
+
+The (geo reward efficiency) will be 1.0 as default value if not listed above
+
+*final reward = base reward * (geo reward efficiency)
 
 ## Referral System
 
@@ -28,7 +42,7 @@ Help us to spread, and you will also get benefits. You will automatically receiv
 
 Please check [Referral reward](https://dashboard.gaganode.com/referral_reward) for details.
 
-![](./../images/../src/images/credit/referral-system-2.png)
+![](./../images/../src/images/credit/referral-system-3.png)
 
 ## Transfer
 
@@ -38,4 +52,4 @@ Click `Transfer gaga credit`, and perform Credit Transfer operations.
 
 Please check [Balance](https://dashboard.gaganode.com/credit_balance) for details.
 
-![](./../images/../src/images/credit/transfer.png)
+![](./../images/../src/images/credit/transfer-1.png)
