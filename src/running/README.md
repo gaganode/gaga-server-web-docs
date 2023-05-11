@@ -11,3 +11,4 @@ You can check the mining rules on the dashboard of [gaganode.com](https://gagano
 - [How To Run GaGaNode On MacOS](https://docs.gaganode.com/running/how-to-run-gaganode-on-macos.html)
 - [How To Run GaGaNode On ARM](https://docs.gaganode.com/running/how-to-run-gaganode-on-arm.html)
 - [How To Run GaGaNode On Raspberry Pi](https://docs.gaganode.com/running/how-to-run-gaganode-on-raspberry-pi.html)
+- [How To Run GaGaNode On MacOS Desktop](https://docs.gaganode.com/running/how-to-run-gaganode-on-macos-desktop.html)
