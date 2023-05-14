@@ -75,6 +75,14 @@ Install app service:                                    [  OK  ]
 
 ## 2.Start Service
 
+::: tip 🚧 TIP
+To shut down the old version of Gaganode if it exists in the system, please use the following command.
+<br>
+`
+sudo ./apphub service remove
+`
+:::
+
 ```bash
 sudo ./apphub service start
 ```

@@ -72,6 +72,14 @@ PS C:\Users\Administrator> wget -Uri "https://assets.coreservice.io/public/packa
 
 ## 2.Start Service
 
+::: tip 🚧 TIP
+To shut down the old version of Gaganode if it exists in the system, please use the following command.
+<br>
+`
+./apphub.exe service remove
+`
+:::
+
 ```bash
 ./apphub.exe service start
 ```
