@@ -31,14 +31,6 @@ Click the button “[Install & Run](https://dashboard.gaganode.com/install_run)�
 
 ## 1.Download & Install
 
-::: tip 🚧 TIP
-To shut down the old version of Gaganode if it exists in the system, please use the following command.
-<br>
-`
-sudo ./app service remove
-`
-:::
-
 <CodeGroup>
 
   <CodeGroupItem title="Linux ARM 64-bit">
@@ -60,6 +52,14 @@ curl -o apphub-linux-arm32.tar.gz https://assets.coreservice.io/public/package/7
 </CodeGroup>
 
 ## 2.Start Service
+
+::: tip 🚧 TIP
+To shut down the old version of Gaganode if it exists in the system, please use the following command.
+<br>
+`
+sudo ./apphub service remove
+`
+:::
 
 ```bash
 sudo ./apphub service start
