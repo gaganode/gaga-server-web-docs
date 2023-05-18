@@ -18,7 +18,7 @@
 
 ## Download & Install
 
-Android APK Download: [gaganode_pro-0_0_88.apk](https://assets.coreservice.io/public/package/73/gaganode_pro/0.0.88/gaganode_pro-0_0_88.apk)
+Android APK Download: [gaganode_pro-0_0_100.apk](https://assets.coreservice.io/public/package/73/gaganode_pro/0.0.100/gaganode_pro-0_0_100.apk)
 
 GaGa Android GitHub: [https://github.com/gaganode/gaga_android/releases](https://github.com/gaganode/gaga_android/releases)
 
