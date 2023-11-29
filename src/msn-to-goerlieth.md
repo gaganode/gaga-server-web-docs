@@ -99,3 +99,15 @@ Click `Get Token` to complete the claiming of MSN.
 ![](./../images/../src/images/msn/msn21.png)
 
 ![](./../images/../src/images/msn/msn22.png)
+
+## Import tokens
+
+The smart contract address for MSN on the Goerli network: [0xc08c439c85bd3e65725d08c54fb6f2895436a649](https://goerli.etherscan.io/token/0xc08c439c85bd3e65725d08c54fb6f2895436a649)
+
+Enter the Token contract address as `0xc08c439c85bd3e65725d08c54fb6f2895436a649` and click `Confirm`.
+
+![](./../images/../src/images/msn/msn24.png)
+
+Click `Import`, and you'll be able to view the claimed MSN in MetaMask.
+
+![](./../images/../src/images/msn/msn25.png)
