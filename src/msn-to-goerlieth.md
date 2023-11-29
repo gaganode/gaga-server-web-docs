@@ -2,6 +2,8 @@
 
 >MSN (Meson Token) is now live on the GoerliETH Testnet, marking the beginning of a new round of testing for the MSN protocol. Join us in exploring and testing the latest features as we continue to enhance and refine the MSN experience.
 
+[[toc]]
+
 ## Connect Wallet
 
 Click on the link [https://dashboard.gaganode.com/balance](https://dashboard.gaganode.com/balance) to access the MSN Reward and Token page.
