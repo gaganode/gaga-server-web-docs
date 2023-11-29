@@ -160,9 +160,9 @@ module.exports = {
                         ],
                     },
                     {
-                        text: '🦆 GaGaNode Credit',
+                        text: '🦆 MSN to GoerliETH',
                         collapsible: true,
-                        link: '/gaganode-credit.md',
+                        link: '/msn-to-goerlieth.md',
                     },
                     {
                         text: '🚀 Run GaGa Nodes',
