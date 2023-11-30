@@ -40,6 +40,10 @@ Enter the amount of MSN Tokens to be claimed on GoerliETH.
 
 ![](./../images/../src/images/msn/msn07.png)
 
+```
+Amount: Enter the amount you wish to claim. You have the option to claim the entire amount or only a portion of it.
+```
+
 Complete the confirmation to transfer MSN to GoerliETH.
 
 ::: tip 🚧 TIP
