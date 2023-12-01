@@ -64,11 +64,11 @@ You have now successfully claimed MSN on GoerliETH.
 
 This is the link to my completed transaction on the Goerli Testnet: [0x55a5a09157a3c6aaf8467726354816e8ec46430733cfec8a4aa9be5c029c1c8d](https://goerli.etherscan.io/tx/0x55a5a09157a3c6aaf8467726354816e8ec46430733cfec8a4aa9be5c029c1c8d)
 
-## Exchange
+## Onchain Swap
 
-The first time you click the `Exchange` button is to set the approval for MSN spending cap. The second time will convert MSN on the GoerliETH chain into MSN Credit.
+The first time you click the `Onchain Swap` button is to set the approval for MSN spending cap. The second time will convert MSN on the GoerliETH chain into MSN Credit.
 
-![](./../images/../src/images/msn/msn12.png)
+![](./../images/../src/images/msn/msn12-1.png)
 
 Specify the quantity of MSN to be converted into MSN Credit.
 
@@ -82,27 +82,13 @@ Set the maximum amount of MSN that can be transferred in MetaMask and click conf
 
 ![](./../images/../src/images/msn/msn23.png)
 
-Then, click `Exchange` again to convert MSN on the GoerliETH chain into MSN Credit.
+Then, click `Swap` again to convert MSN on the GoerliETH chain into MSN Credit.
 
 ![](./../images/../src/images/msn/msn17.png)
 
 Click `Confirm` to convert MSN into MSN Credit.
 
 ![](./../images/../src/images/msn/msn18.png)
-
-## Airdrop
-
-Click `Sign` to start claiming the Airdrop.
-
-![](./../images/../src/images/msn/msn19.png)
-
-![](./../images/../src/images/msn/msn20.png)
-
-Click `Get Token` to complete the claiming of MSN.
-
-![](./../images/../src/images/msn/msn21.png)
-
-![](./../images/../src/images/msn/msn22.png)
 
 ## Import tokens
 
