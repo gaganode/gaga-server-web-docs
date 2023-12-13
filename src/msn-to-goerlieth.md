@@ -48,6 +48,8 @@ Complete the confirmation to transfer MSN to GoerliETH.
 
 ::: tip 🚧 TIP
 Your meson reward balance will be transferred to the MSN on Goerli chain, and this operation cannot be undone, please confirm.
+
+Completion of the 'chain' is required within the 24 hours; otherwise, the status of 'chain' will change to 'expire'. If you are a user affected by 'chain expire', please be assured that your MSN account is not lost. The upcoming update will include instructions and steps to help you seamlessly reclaim your MSN account.
 :::
 
 ![](./../images/../src/images/msn/msn08.png)
