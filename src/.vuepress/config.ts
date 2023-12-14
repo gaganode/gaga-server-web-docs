@@ -68,6 +68,7 @@ module.exports = {
     ],
 
     themeConfig: {
+        darkMode:false,
         sidebarDepth: 0,
         contributors: false,
         logo: '/logo.svg',
