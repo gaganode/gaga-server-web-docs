@@ -161,9 +161,12 @@ module.exports = {
                         ],
                     },
                     {
-                        text: '🦆 MSN to SepoliaETH',
+                        text: '🦆 TestNet Token',
                         collapsible: true,
                         link: '/msn-to-sepolia.md',
+                        children: [
+                            '/msn-to-sepolia.md',
+                        ],
                     },
                     {
                         text: '🚀 Run GaGa Nodes',
