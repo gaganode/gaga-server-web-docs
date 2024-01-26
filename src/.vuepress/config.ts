@@ -161,9 +161,9 @@ module.exports = {
                         ],
                     },
                     {
-                        text: '🦆 MSN to GoerliETH',
+                        text: '🦆 MSN to SepoliaETH',
                         collapsible: true,
-                        link: '/msn-to-goerlieth.md',
+                        link: '/msn-to-sepolia.md',
                     },
                     {
                         text: '🚀 Run GaGa Nodes',
