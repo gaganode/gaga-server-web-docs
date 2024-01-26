@@ -1,4 +1,4 @@
-# Sepolia Based MSN Token
+# Sepolia Based Testnet MSN Token
 
 >Explore and test the latest features of the MSN as it goes live on the SepoliaETH Testnet, signaling the commencement of a new testing phase. Upgrade to the Sepolia TestNet, and take the opportunity to remap and recover your expired and lost tokens, contributing to the ongoing efforts to enhance and refine the overall MSN experience. Join us in this exciting phase of development!
 
