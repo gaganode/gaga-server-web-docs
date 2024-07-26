@@ -49,7 +49,7 @@ You can also launch Windows PowerShell as an admin from the Windows Power User m
   <CodeGroupItem title="Windows 64-bit">
 
 ```bash
-wget -Uri "https://assets.coreservice.io/public/package/59/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz" -OutFile "apphub-windows-amd64.tar.gz" ; tar -zxf apphub-windows-amd64.tar.gz ; rm -Force apphub-windows-amd64.tar.gz ; cd ./apphub-windows-amd64 ; ./apphub.exe service install
+wget -Uri "https://assets.coreservice.io/public/package/59/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz" -OutFile "apphub-windows-amd64.tar.gz" ; tar -zxf apphub-windows-amd64.tar.gz ; rm -Force apphub-windows-amd64.tar.gz ; cd ./apphub-windows-amd64 ; ./apphub.exe service remove  ; ./apphub.exe service install
 ```
 
   </CodeGroupItem>
@@ -57,7 +57,7 @@ wget -Uri "https://assets.coreservice.io/public/package/59/app-market-gaga-pro/1
   <CodeGroupItem title="Windows 32-bit">
 
 ```bash
-wget -Uri "https://assets.coreservice.io/public/package/59/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz" -OutFile "apphub-windows-amd64.tar.gz" ; tar -zxf apphub-windows-amd64.tar.gz ; rm -Force apphub-windows-amd64.tar.gz ; cd ./apphub-windows-amd64 ; ./apphub.exe service install
+wget -Uri "https://assets.coreservice.io/public/package/59/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz" -OutFile "apphub-windows-amd64.tar.gz" ; tar -zxf apphub-windows-amd64.tar.gz ; rm -Force apphub-windows-amd64.tar.gz ; cd ./apphub-windows-amd64 ; ./apphub.exe service remove  ; ./apphub.exe service install
 ```
 
   </CodeGroupItem>
